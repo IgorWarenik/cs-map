@@ -35,8 +35,8 @@
   --space-16: 4rem;
 
   --panel-w: 420px;
-  --node-center-size: 120px;
-  --node-size: 100px;
+  --node-center-size: 110px;
+  --node-size: 88px;
 }
 
 [data-theme="dark"] {
@@ -223,7 +223,7 @@ button { cursor: pointer; background: none; border: none; color: inherit; font: 
 }
 
 .node-icon {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   line-height: 1;
   margin-bottom: var(--space-1);
   font-family: var(--font-display);
@@ -232,7 +232,7 @@ button { cursor: pointer; background: none; border: none; color: inherit; font: 
 }
 
 .node-center .node-icon {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   margin-bottom: var(--space-2);
 }
 
@@ -439,8 +439,8 @@ button { cursor: pointer; background: none; border: none; color: inherit; font: 
 @media (max-width: 700px) {
   :root {
     --panel-w: 100vw;
-    --node-center-size: 90px;
-    --node-size: 76px;
+    --node-center-size: 80px;
+    --node-size: 66px;
   }
   .hint-text { display: none; }
   .panel-inner { padding: var(--space-6); }

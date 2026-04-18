@@ -46,8 +46,8 @@
   function getRadius() {
     const { w, h } = getMapBounds();
     const base = Math.min(w, h);
-    // leave room for panel when open
-    return base * 0.31;
+    // 10 nodes need more spread; leave room for labels at edges
+    return base * 0.36;
   }
 
   // ── Draw connections on canvas ────────────────────────────────
